@@ -1,0 +1,21 @@
+SQL Queries
+
+1. Total Employees
+
+SELECT COUNT(*) AS total_employees FROM hr_data;
+
+2. Attrition Count
+
+SELECT Attrition, COUNT(*) AS total FROM hr_data GROUP BY Attrition;
+
+3. Department-wise Attrition
+
+SELECT Department, COUNT(*) AS attrtion_count FROM hr_data GROUP BY Department;
+
+4. Average Salary by Department
+
+SELECT Department, AVG(MonthlyIncome) as avg_salary FROM hr_data GROUP BY Department;
+
+5. Gender Distribution
+
+SELECT Gender, COUNT(*) AS total FROM hr_data GROUP BY Gender;
