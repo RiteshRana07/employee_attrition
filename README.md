@@ -167,6 +167,3 @@ Employee_Attrition_Project/
 Built an Employee Attrition Analysis project using SQL and Python to analyze employee retention, salary trends, department performance, and workforce behavior.
 
 ---
-
-# Author
-Ritesh Rana
